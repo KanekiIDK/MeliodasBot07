@@ -100,8 +100,8 @@ lolKey = up.LolHumanKey
 
 //--Kontak
 const vcard = 'BEGIN:VCARD\n'
-+ 'VER:۝֎𝙺𝚒𝚗𝚐|𝙱𝚘𝚝_𝚟𝟹֎۝\n' // Nama
-+ 'ORG:ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|𝙳𝚎𝚒𝚖𝚎𝚛☠️⃟⃢𖢄⚜️;\n' // Nama bot
++ 'VER:MΣᄂIӨDΛƧ_BOT07\n' // Nama
++ 'ORG:MΣᄂIӨDΛƧ;\n' // Nama bot
 + 'TEL;type=CELL;type=VOICE;waid=573142753447:+57 3142753447\n' // Nomor bot
 + 'END:VCARD' 
 
@@ -282,7 +282,7 @@ Usa ${prefix}verify para verificarte y poder usar el bot.`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Le falto odio a @${num.split('@')[0]} bye Aborto 👋`
+				teks = `u, @${num.split('@')[0]} bye puta 👋`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -331,8 +331,8 @@ Usa ${prefix}verify para verificarte y poder usar el bot.`
     group: 'Este comando solo puede ser usado en grupos',
     ownerG: 'Este comando solo puede ser usado por el dueño del grupo',
     ownerB: 'Este comando solo puede ser usado por el dueño del bot',
-    admin: 'ja pinchi integrante comun tiene que ser admin para usarlo ',
-    Badmin: 'El bot debe ser admin para este comando',
+    admin: 'Eres un integrante comun we.-. solo admins. ',
+    Badmin: 'El bot debe ser admin dios 😎🙏 para este comando',
     daftarB: `Hola,pedazo de gay para usar este humilde bot primero registrese *${prefix}verify* para poder usar el bot`
   }
 }
@@ -577,13 +577,13 @@ case '?':
   if (!isRegister) return reply(mess.only.daftarB)
   uptime = process.uptime()
   const Menu = {
-text: `ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|𝙳𝚎𝚒𝚖𝚎𝚛☠️⃟⃢𖢄⚜️
+text: `MΣᄂIӨDΛƧ
 
 Hola *${pushname}* 
 
 〘 *BOT* 〙
 ‣ Prefijo:「 ${prefix} 」
-‣ Yo soy: ۝֎𝙺𝚒𝚗𝚐|𝙱𝚘𝚝_𝚟𝟹֎۝
+‣ Yo soy: MΣᄂIӨDΛƧ-BOT🥵🙏
 ‣ Tiempo encencido: *${kyun(uptime)}*
 ‣ Modo: *ON*
 ‣ Grupo:  *${groupName}*
@@ -593,20 +593,7 @@ Hola *${pushname}*
 ‣ Lindo grupo unete: https://n9.cl/4bf7s
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃───〘ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|𝙳𝚎𝚒𝚖𝚎𝚛☠️⃟⃢𖢄⚜️〙────
-┃unanse a mi grupo no sean gays 
-┃-https://n9.cl/4bf7s
-┃━━━━━━━━━━━━━━━━━━━━
-┃mensajito: los odio a todos ojalas les 
-┃caiga un camion encima 
-┃gracias por su atencion :3
-┃━━━━━━━━━━━━━━━━━━━━
-┃◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆
-┃ ⚜️COLABORADORES ⚜️
-┃◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆
-┃ஓ➣ ꧁༒⃢␙🇺🇳℘ąɬơ 🎩²⁰¹⁴⃢༒꧂
-┃ஓ➣꠹ᭂ࿆𝐒𝐚𝐭𝐚𝐧𝐢𝐜𝐚ﻬ🧸ᬉ᭞👑⎗ ૈ𖦼𝐫ฺֺֹּ
-┃ ஓ➣ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|Demon☠️⃟⃢𖢄⚜️
+┃───〘MΣᄂIӨDΛƧ〙────
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Simi (Teks)*
 ┃ _Simsimi Chat_
@@ -1169,7 +1156,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|𝙳𝚎𝚒𝚖𝚎𝚛☠️⃟⃢𖢄⚜️`
+  quoted: mek, caption: `MΣᄂIӨDΛƧ`
 })
 
 } catch {
@@ -1304,7 +1291,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|𝙳𝚎𝚒𝚖𝚎𝚛☠️⃟⃢𖢄⚜️`
+quoted: mek, caption: `MΣᄂIӨDΛƧ`
   })
   
   } catch {
@@ -1330,7 +1317,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `ঔৣ͡✇⃟⃢🇯🇵令ᴋɪɴɢ|𝙳𝚎𝚒𝚖𝚎𝚛☠️⃟⃢𖢄⚜️`
+quoted: mek, caption: `MΣᄂIӨDΛƧ`
   })
   
   } catch {
