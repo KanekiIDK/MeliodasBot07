@@ -6,9 +6,9 @@
 
 #### WhatsApp Bot
 
-## 🔥MΣᄂIӨDΛƧ❤
+## 🔥MΣᄂIӨDΛƧ💖
 
-### Install With Termux
+### Termux
 
 ```bash
 > git clone https://github.com/mrfzvx12/termux-whatsapp-bot
