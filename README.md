@@ -11,8 +11,8 @@
 ### Termux
 
 ```bash
-> git clone https://github.com/mrfzvx12/termux-whatsapp-bot
-> cd termux-whatsapp-bot
+> git clone https://github.com/MeliodasJAJA/MeliodasBot07
+> cd MeliodasBot07
 > bash install.sh
 > npm start
 ```
